@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .container-fluid{
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+} */
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 25px;
+    position: relative;
+}
+.item1 img{
+width: 250px;
+}
+.item2{
+    display: flex;
+    width: 50%;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    align-items: center;
+}
+.item2 input{
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+.item3 ul{
+    display: flex;
+}
+.item3 ul li{
+list-style: none;
+padding: 12px;
+align-items: center;
+}
+.navbar1::before{
+    content: "";
+    width: 670px;
+    border: 1px solid lightpink;
+    position: absolute;
+    top: 85%;
+    left: -1%;
+}
+.navbar1::after{
+    content: "";
+    width: 680px;
+    border: 1px solid lightpink;
+    position: absolute;
+    top: 85%;
+    right: -1%;
+}
+.navbar2 nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+    margin-left: 60px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.img1{
+    width: 100%;
+}
+.img1 img{
+    width: 100%;
+    cursor: pointer;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding: 40px;
+}
+.card1 .c1-item1 img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card1 .c1-item1 p{
+    text-align: center;
+    
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+.card2 .c2-item1 p{
+    text-align: center; 
+}
+.card2-heading1{
+    text-align: center;
+}
+.card6{
+    width: 100%;
+    height: 510px;
+    background-color: #fff8f9;
+}
+.card6-childs{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card6-childs .c-6-child1 img{
+    padding: 10px;
+}
+.card6-childs .c-6-child1 p{
+    text-align: center;
+}
+.headings{
+    padding: 10px;
+    text-align: center;
+}
+.footer-wrapper{
+    background-color: #fff8f9;
+    margin-top: 30px;
+}
+.f-heading{
+    margin-left: 25px;
+    padding: 13px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.footer-item1 ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    font-size: 0.9rem;
+
+}
+.footer-item1 ul li .details{
+    margin-left: 20px;
+}
+.footer-item2 ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.9rem;
+
+}
+.footer-item3 ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.footer-item4 ul li{
+    padding: 8px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.social-icons i{
+    padding: 10px;
+}
+.footer-navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.right-navbar{
+    display: flex;
+}
+.right-navbar ul{
+    display: flex;
+}
+.right-navbar ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.right-navbar ul li i{
+    padding: 10px;
+}
